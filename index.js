@@ -5,7 +5,7 @@ const { sendSMS2, sendSMS } = require('./api/sms.soap');
   try {
     // SendSimpleSMS2
     const res2 = await sendSMS2(
-      '09376719296',
+      '09123456789',
       '1تست',
       false
     );
@@ -14,8 +14,8 @@ const { sendSMS2, sendSMS } = require('./api/sms.soap');
     // SendSimpleSMS
     const res = await sendSMS(
       [
-        '09376719296',
-        '09962246514',
+        '09123456789',
+        '09123456789',
       ],
       'تست2',
       false
